@@ -51,11 +51,83 @@ experiences:
 
         ...
 
-    - role: Technical Lead Manager
+    - role: Staff Engineer, Technical Lead Manager
       time: 2021.04 - 2021.08
       company: Slack
-      tag: 50/50 Split
+      tag: 
       location: Remote
+      details: |
+        Experience in this company:
+        + First
+        + Second
+
+        ...
+
+    - role: Staff Engineer
+      time: 2019.02 - 2021.08
+      company: Slack
+      tag: 
+      location: San Francisco
+      details: |
+        Experience in this company:
+        + First
+        + Second
+
+        ...
+
+    - role: Senior Engineer
+      time: 2017.02 - 2019.02
+      company: Slack
+      tag: 
+      location: San Francisco, California
+      details: |
+        Experience in this company:
+        + First
+        + Second
+
+        ...
+
+    - role: Operations Engineer
+      time: 2015.07 - 2017.02
+      company: Slack
+      tag: 
+      location: San Francisco, California
+      details: |
+        Experience in this company:
+        + First
+        + Second
+
+        ...
+
+    - role: Storage Operations Engineer
+      time: 2014.08 - 2015.07
+      company: Box
+      tag: 
+      location: Los Altos, California
+      details: |
+        Experience in this company:
+        + First
+        + Second
+
+        ...
+
+    - role: NOC Engineer
+      time: 2014.06 - 2014.08
+      company: Box
+      tag: 
+      location: Los Altos, California
+      details: |
+        Experience in this company:
+        + First
+        + Second
+
+        ...
+
+    - role: Operations Technician
+      time: 2013.02 - 2014.06
+      company: Box
+      tag: 
+      location: Los Altos, California
       details: |
         Experience in this company:
         + First
