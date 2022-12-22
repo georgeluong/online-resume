@@ -1,26 +1,26 @@
 basic:
-  name: Foo Bar
-  title: Backend Developer
+  name: George Luong
+  title: Engineering Manager
   avatar:
     display: true
-    path: profile.png
+    path: profile.jpg
 
 contact:
   location:
   email: me@example.com
-  phone: +86-111-2222-3333
-  website: example.com
+  phone: 
+  website: georgeluong.com
   wechat:
   whatsapp:
   telegram:
-  github: github
+  github: https://github.com/georgeluong
   gitlab:
   bitbucket:
   googlescholar:
   researchgate:
   linkedin:
   medium:
-  twitter: twitter
+  twitter: 
   stackoverflow:
   quora:
   goodreads:
@@ -29,7 +29,7 @@ profile:
   display: true
   title: Profile
   details: |
-    It's your career profile, you can wirte markdown format text.
+    Engineering leader with experience running services at scale.
     + First
     + Second
 
@@ -39,11 +39,11 @@ experiences:
   display: true
   title: Experiences
   items:
-    - role: Backend Developer
-      time: 2018.03 - 2019.03
-      company: Second Company
+    - role: Engineering Manager
+      time: 2021.08 - Present
+      company: Slack
       tag:
-      location: Beijing
+      location: Remote
       details: |
         Experience in this company:
         + First
@@ -51,11 +51,11 @@ experiences:
 
         ...
 
-    - role: Backend Developer
-      time: 2017.03 - 2018.03
-      company: First Company
-      tag: Remote, part-time
-      location: Beijing
+    - role: Technical Lead Manager
+      time: 2021.04 - 2021.08
+      company: Slack
+      tag: 50/50 Split
+      location: Remote
       details: |
         Experience in this company:
         + First
@@ -102,75 +102,38 @@ education:
   display: true
   title: Education
   items:
-    - university: Example University
-      time: 2015 - 2018
-      major: Machine Learning
-      degree: Master
-      details: |
-        Experience in this university:
-        + First
-        + Second
-
-        ...
-
-    - university: Example University
-      time: 2011 - 2015
-      major: Computer Science
+    - university: UC San Diego
+      time: 2006 - 2010
+      major: Human Biology
       degree: Bachelor
       details: |
         Experience in this university:
         + First
         + Second
 
-        ...
-
-certificates:
-  display: true
-  title: Certificates
-  items:
-    - name: Course Foo
-      authority: Coursera
-      time: 2020
-      link:
-      details: |
-        It's my Course Foo certificate by coursera.
-    - name: Course Bar
-      authority: Coursera
-      time: 2020
-      link: https://www.google.com
-      details: |
 
 publications:
   display: true
   title: Publications
   intro: |
-    This is all the books I wrote.
 
   items:
-    - title: Foo in Action
-      authors: Foo Bar
-      conference: Foobar, 2019
-      link: https://www.google.com
-    - title: The Art of Bar
-      authors: Foo Bar
-      conference: Foobar, 2019
-      link:
-
-patents:
-  display: true
-  title: Patents
-  details: |
-    This is all my patents.
-    + 2020\. A patent name is here. CN123456, filed May 15, 2020, and issued July 20, 2020.
+    - title: Building Self-driving Kafka clusters using open source components
+      authors: Suman Karumuri, George Luong
+      link: https://slack.engineering/building-self-driving-kafka-clusters-using-open-source-components/
+    - title: Slack in the Age of Prometheus
+      authors: George Luong
+      conference: Monitorama, 2018
+      link: https://vimeo.com/274820706
 
 languages:
   display: true
   title: Languages
   items:
-    - idiom: Chinese
-      level: Native
     - idiom: English
-      level: Professional
+      level: Fluent
+    - idiom: Cantonese
+      level: Conversational
 
 interests:
   display: true
@@ -182,7 +145,7 @@ interests:
       link:
 
 evaluation:
-  display: true
+  display: false
   title: Self-evaluation
   details: |
     Here is my self evaluation.
