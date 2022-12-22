@@ -41,7 +41,7 @@ experiences:
       tag:
       location: Remote
       details: |
-        As the manager of Slack's Monitoring Infrastructure team, my focus is on reducing the discrepancy between the number of services and the number of team members, while helping to align the team on a long term roadmap and executing on our short term goals. To achieve these goals, I have implemented a number of key initiatives, including automating repetitive maintenance tasks to improve team productivity, introducing efficient processes to streamline workflows, and investing in team learning to prevent repeat problems from occurring. Through these efforts, I am working to build a more effective and efficient team, and am committed to driving positive change and continued success at Slack.
+        My focus is on reducing the discrepancy between the number of services and the number of team members, while helping to align the team on a long term roadmap and executing on our short term goals. To achieve these goals, I have implemented a number of key initiatives, including automating repetitive maintenance tasks to improve team productivity, introducing efficient processes to streamline workflows, and investing in team learning to prevent repeat problems from occurring. Through these efforts, I am working to build a more effective and efficient team, and am committed to driving positive change and continued success at Slack.
 
     - role: Staff Engineer (Technical Lead Manager), Monitoring Infrastructure
       time: 2021.04 - 2021.08
@@ -49,7 +49,7 @@ experiences:
       tag: 
       location: Remote
       details: |
-        As a technical lead manager at Slack, I took on a critical role in leading and navigating the team through a period of stress and turmoil. During my trial period in this role, I successfully delivered major initiatives such as GovSlack, a major upgrade from ELK5 to ELK7, and various service ownership transfers, service deprecations, and migrations. In addition to these technical challenges, I also overhauled the team's internship program, which was lauded throughout the organization.
+        During my trial period in this role, I took on a critical role in leading and navigating the team through a time of stress and turmoil. I successfully delivered major initiatives such as GovSlack, an upgrade from ELK5 to ELK7, along with various service ownership transfers, service deprecations, and migrations. In addition to these technical challenges, I also overhauled the team's internship program, which was lauded throughout the organization.
 
     - role: Staff Engineer, Visibility Infrastructure
       time: 2019.02 - 2021.08
@@ -57,7 +57,7 @@ experiences:
       tag: 
       location: San Francisco, California
       details: |
-        As a member of Slack's Visibility Infrastructure team, I played a key role in the adoption of Prometheus to replace the existing metrics system. This transition was a major undertaking and required a significant amount of planning and execution, and my efforts were instrumental in its success. In addition to my technical contributions, I also served as a mentor to others on the team, helping to guide the development and growth of my colleagues. 
+        I played a key role in the adoption of Prometheus to replace the existing metrics system. This transition was a major undertaking and required a significant amount of planning and execution, and my efforts were instrumental in its success. In addition to my technical contributions, I also served as a mentor to others on the team, helping to guide the development and growth of my colleagues. 
 
     - role: Senior Engineer, Visibility Operations
       time: 2017.02 - 2019.02
