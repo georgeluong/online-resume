@@ -7,7 +7,7 @@ basic:
 
 contact:
   location:
-  email: me@example.com
+  email: hello@georgeluong.com
   phone: 
   website: georgeluong.com
   wechat:
@@ -29,63 +29,43 @@ profile:
   display: true
   title: Profile
   details: |
-    Engineering leader with experience running services at scale.
-    + First
-    + Second
-
-    ...
+    As an engineering leader, I possess a strong technical foundation and the ability to effectively communicate and collaborate with cross-functional teams. I am skilled in building and motivating high-performing teams, and have a proven track record of delivering successful projects on time and within budget. I am able to balance technical expertise with strong interpersonal skills, and am able to successfully lead and manage team members at all levels. My approach to leadership is collaborative and inclusive, and I am committed to empowering team members to reach their full potential.
 
 experiences:
   display: true
   title: Experiences
   items:
-    - role: Engineering Manager
+    - role: Engineering Manager, Monitoring Infrastructure
       time: 2021.08 - Present
       company: Slack
       tag:
       location: Remote
       details: |
-        Experience in this company:
-        + First
-        + Second
+        As the manager of Slack's Monitoring Infrastructure team, my focus is on reducing the discrepancy between the number of services and the number of team members, while helping to align the team on a long term roadmap and executing on our short term goals. To achieve these goals, I have implemented a number of key initiatives, including automating repetitive maintenance tasks to improve team productivity, introducing efficient processes to streamline workflows, and investing in team learning to prevent repeat problems from occurring. Through these efforts, I am working to build a more effective and efficient team, and am committed to driving positive change and continued success at Slack.
 
-        ...
-
-    - role: Staff Engineer, Technical Lead Manager
+    - role: Staff Engineer (Technical Lead Manager), Monitoring Infrastructure
       time: 2021.04 - 2021.08
       company: Slack
       tag: 
       location: Remote
       details: |
-        Experience in this company:
-        + First
-        + Second
+        As a technical lead manager at Slack, I took on a critical role in leading and navigating the team through a period of stress and turmoil. During my trial period in this role, I successfully delivered major initiatives such as GovSlack, a major upgrade from ELK5 to ELK7, and various service ownership transfers, service deprecations, and migrations. In addition to these technical challenges, I also overhauled the team's internship program, which was lauded throughout the organization.
 
-        ...
-
-    - role: Staff Engineer
+    - role: Staff Engineer, Visibility Infrastructure
       time: 2019.02 - 2021.08
       company: Slack
       tag: 
-      location: San Francisco
+      location: San Francisco, California
       details: |
-        Experience in this company:
-        + First
-        + Second
+        As a member of Slack's Visibility Infrastructure team, I played a key role in the adoption of Prometheus to replace the existing metrics system. This transition was a major undertaking and required a significant amount of planning and execution, and my efforts were instrumental in its success. In addition to my technical contributions, I also served as a mentor to others on the team, helping to guide the development and growth of my colleagues. 
 
-        ...
-
-    - role: Senior Engineer
+    - role: Senior Engineer, Visibility Operations
       time: 2017.02 - 2019.02
       company: Slack
       tag: 
       location: San Francisco, California
       details: |
-        Experience in this company:
-        + First
-        + Second
-
-        ...
+        After a period of time, the Ops team at Slack split into three sub-teams, and I moved to the Visibility Operations team. In this role, I helped scale the company's logging and metrics systems to support a growing team of engineers, which grew from 40 to nearly 200. As part of this effort, I implemented Kafka at Slack to serve as a buffer for logs and other data that were used to power key business metrics. My work on the Visibility Operations team helped to ensure that Slack had the necessary infrastructure in place to support the growth and development of the company, and my efforts to scale and improve the logging and metrics systems were critical to the success of the team.
 
     - role: Operations Engineer
       time: 2015.07 - 2017.02
@@ -93,11 +73,7 @@ experiences:
       tag: 
       location: San Francisco, California
       details: |
-        Experience in this company:
-        + First
-        + Second
-
-        ...
+        As an Operations Engineer on Slack, I was responsible for maintaining and improving the reliability and performance of the core business functions. This included managing the databases that housed customer data, our monitoring and logging systems, the webapp, the deployment system, the datawarehouse, and other various functions across engineering. I was also part of a small group of engineers who were on-call for all of Slack during its formative years, ensuring the platform was available and performing optimally for users around the world. Through my work on the Ops team, I played a significant role in the success and growth of Slack, and am proud of the contributions I made to the company.
 
     - role: Storage Operations Engineer
       time: 2014.08 - 2015.07
@@ -105,11 +81,7 @@ experiences:
       tag: 
       location: Los Altos, California
       details: |
-        Experience in this company:
-        + First
-        + Second
-
-        ...
+        As a senior operations engineer on the storage team at Box, I played a key role in the operation, maintenance, and improvement of the Box's "Filer" systems. These systems were responsible for handling exabyte-scale data, and I worked closely with the team to ensure that they were running efficiently and effectively. In addition to my technical responsibilities, I also managed data consistency and redundancy in AWS s3, ensuring that all data was properly backed up and protected. I was also instrumental in improving the speed and efficiency of the upload and download paths, working on both paths to optimize performance and provide a seamless experience for our users. My strong problem-solving skills and attention to detail allowed me to identify and address any issues that arose, resulting in a high level of uptime and reliability for our storage systems. I was also proactive in identifying and implementing improvements to our processes and infrastructure, contributing to the overall success of the storage team at Box.
 
     - role: NOC Engineer
       time: 2014.06 - 2014.08
@@ -117,11 +89,10 @@ experiences:
       tag: 
       location: Los Altos, California
       details: |
-        Experience in this company:
-        + First
-        + Second
-
-        ...
+        + Helped develop the incident management process at Box.
+        + Took initiative during customer-impacting events to lead a team to quickly solve site-impacting issues.
+        + Operated across organizational boundaries to protect our customers, their data, and the availability of all Box services.
+        + Built tools and processes to improve manageability, observability, resiliency and time to restore service for critical incidents
 
     - role: Operations Technician
       time: 2013.02 - 2014.06
@@ -129,14 +100,12 @@ experiences:
       tag: 
       location: Los Altos, California
       details: |
-        Experience in this company:
-        + First
-        + Second
-
-        ...
-
+        + Monitored, debugged, and resolved issues that affect the availability and quality of the Box platform.
+        + Maintained total site awareness by detecting metric and service deviations, monitoring changes, and proactively identifying potential issues and resolving before they escalate to customer impacting levels
+        + Troubleshot critical problems through applications, systems, clouds, and networks
+       
 projects:
-  display: true
+  display: false
   title: Projects
   intro: |
     This is all the projects I'm involved in.
@@ -153,7 +122,7 @@ projects:
         Project Bar's detail, you can write markdown format text.
 
 skills:
-  display: true
+  display: false
   title: Skills
   details: |
     Here is my skills:
@@ -178,11 +147,6 @@ education:
       time: 2006 - 2010
       major: Human Biology
       degree: Bachelor
-      details: |
-        Experience in this university:
-        + First
-        + Second
-
 
 publications:
   display: true
