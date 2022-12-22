@@ -118,25 +118,26 @@ publications:
   intro: |
 
   items:
-    - title: Building Self-driving Kafka clusters using open source components
-      authors: Suman Karumuri, George Luong
+    - title: Building Self-driving Kafka clusters using open source components [Blog Post]
+      authors: "Authors: Suman Karumuri, George Luong"
       link: https://slack.engineering/building-self-driving-kafka-clusters-using-open-source-components/
-    - title: Slack in the Age of Prometheus
+
+    - title: Slack in the Age of Prometheus [Talk]
       authors: George Luong
-      conference: Monitorama, 2018
+      conference: "Conference: [Monitorama, 2018](https://monitorama.com/2018/pdx.html#speakers)"
       link: https://vimeo.com/274820706
 
 languages:
   display: true
   title: Languages
   items:
-    - idiom: English
-      level: Fluent
-    - idiom: Cantonese
-      level: Conversational
+    - idiom: Bash
+      level: 
+    - idiom: Python
+      level: 
 
 interests:
-  display: true
+  display: false
   title: Interests
   items:
     - item: Reading
