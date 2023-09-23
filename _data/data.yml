@@ -193,7 +193,7 @@ publications:
       conference: Monitorama, 2018
       link: https://vimeo.com/274820706
 
-    - title: From Grafana 2.1.0 to today: the long, winding, and successful monitoring journey at Slack [Talk]
+    - title: "From Grafana 2.1.0 to today: the long, winding, and successful monitoring journey at Slack [Talk]"
       authors: George Luong
       conference: ObservabilityCON, 2023
       link: https://grafana.com/go/webinar/from-grafana-2-1-0-to-today-the-long-winding-and-successful-monitoring-journey-at-slack/
