@@ -26,10 +26,10 @@ contact:
   goodreads:
 
 profile:
-  display: false
+  display: true
   title: Profile
   details: |
-    As an engineering leader, I possess a strong technical foundation and the ability to effectively communicate and collaborate with cross-functional teams. I am skilled in building and motivating high-performing teams, and have a proven track record of delivering successful projects on time and within budget. I am able to balance technical expertise with strong interpersonal skills, and am able to successfully lead and manage team members at all levels. My approach to leadership is collaborative and inclusive, and I am committed to empowering team members to reach their full potential.
+    As an engineer, I love tackling difficult problems, especially while collaborating with other passionate people. I embody my personal values of empathy, hardwork, and creativity to elevate any team I'm a part of. Moving into management and engineering leadership has made me a better engineer, as I learned how to balance competing priorities, lead others, develop careers, ask difficult questions, and make difficult decisions. While the wins are farther and fewer inbetween, I find engineering leadership fulfilling, as the  wins are bigger and more satisfying on a different scale. That said, I still enjoy being an IC and having "hands-on-keyboard".
 
 experiences:
   display: true
@@ -41,13 +41,24 @@ experiences:
       tag:
       location: Remote
       details: |
+        * Deprecated Graphite
+        * Moved services from EC2 to Slack's Kubernetes platform to reduce maintenance overhead
+        * Conference talks and blog posts
+        * Mentored engineers considering the switch from IC to management
+        * Hired 2 engineers (so far!)
 
-    - role: Staff Engineer (Technical Lead Manager), Monitoring Infrastructure
+    - role: Technical Lead Manager, Monitoring Infrastructure
       time: 2021.04 - 2021.08
       company: Slack
       tag: 
       location: Remote
       details: |
+        * Started to transition to management by taking over managerial tasks (career development, work prioritization)
+        * Project management for the Monitoring team
+        * Helped the team deliver key projects like GovCloud, ELK7 upgrade
+        * Shaved services out of the team's purview by finding better service owners or through deprecation
+        * Promoted 2 Senior (L7) engineers to Staff (L8) level
+        * Guided the team through a time of high turnover and turmoil
 
     - role: Staff Engineer, Visibility Infrastructure
       time: 2019.02 - 2021.08
@@ -55,6 +66,9 @@ experiences:
       tag: 
       location: San Francisco, California
       details: |
+        * Mentored new team members and other engineers across engineering
+        * Developed and taught Intro to Visibility courses for new hires
+        * Scaled Slack's observability stack from millions to billions of time series
 
     - role: Senior Engineer, Visibility Operations
       time: 2017.02 - 2019.02
@@ -62,6 +76,11 @@ experiences:
       tag: 
       location: San Francisco, California
       details: |
+        * Deployed Slack's first (and for many years, main) Kafka cluster for log queueing
+        * Built out Prometheus stacks for all of Slack's metrics
+        * Developed and maintained events pipeline for key business metrics (active users, billing info, server logs, client logs)
+        * Helped build out Slack's IDR regions
+        * Mentored interns and new grads
 
     - role: Operations Engineer
       time: 2015.07 - 2017.02
@@ -69,6 +88,11 @@ experiences:
       tag: 
       location: San Francisco, California
       details: |
+        * SRE for all Slack services (messaging, job queue, databases, observability, webapp)
+        * Wrote a metadata service for Slack's databases
+        * Built out Graphite stack to replace a vendor for metrics
+        * Incident response
+        * Participated in Slack's only on-call rotation for the entire service
 
     - role: Storage Operations Engineer
       time: 2014.08 - 2015.07
@@ -76,6 +100,13 @@ experiences:
       tag: 
       location: Los Altos, California
       details: |
+        * Transferred out of the NOC and into the Storage Operations team
+        * SRE embedded with Storage Dev team
+        * Loadtesting for Box's new Storage Service
+        * Built tooling to report on Orphaned/Lost files
+        * Managed Box's "Filer" system
+        * For almost all this duration, served as Box's only Storage Ops on-call engineer
+        * Mentored new engineers who entered the NOC career track
 
     - role: NOC Engineer
       time: 2014.06 - 2014.08
@@ -83,6 +114,11 @@ experiences:
       tag: 
       location: Los Altos, California
       details: |
+        * The role was redefined because it included engineering work
+        * Same responsibilites as the Operations Technician, but expanded role due to growing skillset
+        * Wrote automation for self-recovery of system failures
+        * SRE-trainee rotating through many areas of the Technical Operations org
+        * Internal internship with Box's Storage team
 
     - role: Operations Technician
       time: 2013.02 - 2014.06
@@ -90,7 +126,10 @@ experiences:
       tag: 
       location: Los Altos, California
       details: |
-       
+        * Incident response, plus responsible for company-wide and external (status site)  communication
+        * First responder for alerts and pages
+        * Junior system admin
+
 projects:
   display: false
   title: Projects
@@ -145,16 +184,25 @@ publications:
       authors: "Authors: Suman Karumuri, George Luong"
       link: https://slack.engineering/building-self-driving-kafka-clusters-using-open-source-components/
 
+    - title: Tracing Notifications [Blog Post]
+      authors: "Authors: Suman Karumuri, George Luong"
+      link: https://slack.engineering/tracing-notifications/
+
     - title: Slack in the Age of Prometheus [Talk]
       authors: George Luong
       conference: Monitorama, 2018
       link: https://vimeo.com/274820706
 
+    - title: From Grafana 2.1.0 to today: the long, winding, and successful monitoring journey at Slack [Talk]
+      authors: George Luong
+      conference: ObservabilityCON, 2023
+      link: https://grafana.com/go/webinar/from-grafana-2-1-0-to-today-the-long-winding-and-successful-monitoring-journey-at-slack/
+
 languages:
   display: true
   title: Languages
   items:
-    - idiom: Bash
+    - idiom: Bash/Shell
       level: 
     - idiom: Python
       level: 
